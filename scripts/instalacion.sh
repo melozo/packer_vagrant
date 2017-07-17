@@ -31,7 +31,7 @@ fi
 if [ $HOSTNAME = php ]
 then
 	echo "Install php-fpm and mysql..."	
-	sudo apk add php5-mysql python iproute2 php5-fpm mariadb mariadb-client git wget && \
+	sudo apk add php7-redis php7-mysql python iproute2 php7-fpm mariadb mariadb-client git wget && \
 	sudo rc-update add php-fpm && \
 	sudo rc-update add mariadb && \
 	echo "Clone repo repo app..."
