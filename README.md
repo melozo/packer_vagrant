@@ -48,3 +48,7 @@ git clone blaublau && cd blaublau
 
 ```
 
+## Blau
+```bash
+[NGINX] nginx_proxypass -> [NGINX+PHP-FPM] con tcp /sock es más rápido -> [REDIS]
+```
